@@ -1,0 +1,23 @@
+
+
+.hCategories{
+   background: rgba(212, 204, 204 , 0.9);
+   width: 16%;
+   height: 0;
+   margin: 0;
+   position: fixed;
+   top: 34%;
+   left: 2%;
+   height : 0;
+   opacity: 0;
+   overflow: hidden;
+   transition: all 0.4s;
+
+}
+
+.shFm{
+  
+   z-index: 1;
+   height : fit-content;
+   opacity: 1;
+}

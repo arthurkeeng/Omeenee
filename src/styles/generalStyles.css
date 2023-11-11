@@ -1,0 +1,94 @@
+/* start of flex properties */
+
+/* for any display of flex - display*/
+.d{
+   display: flex;
+   align-items: center;
+}
+
+/* justifying contents */
+.j{
+   justify-content: space-between;
+}
+
+/* end of flex properties */
+
+/* start of margin and padding properties */
+
+
+/* gives little margin between elements - small margin right */
+.smr{
+   margin-right: 6px;
+}
+/* gives little margin between elements - small margin right */
+
+.sml{
+   margin-left: 6px;
+}
+/* gives little margin between elements - small margin bottom */
+
+.smb {
+   margin-bottom: 1rem;
+}
+
+/* sets the margin top to a big value */
+.bmt{
+   margin-top: 4rem;
+}
+
+/* end of margin and padding properties */
+
+
+.smb
+/* this is to set the width and height of images - image dimension*/
+
+.id{
+   width : 50px;
+   height : 50px;
+}
+/* this is for relative positioning */
+.rp{
+   position: relative;
+   top: 0;
+   left : 0;
+}
+/* this sets a padding */
+
+.p{
+   padding : 8px 9px ;
+}
+
+.ab {
+   position : absolute;
+}
+/* this sets a auto margin */
+.ma{
+   margin : 0 auto ;
+}
+/* hiding overflow */
+.oh {
+   overflow: hidden;
+}
+
+/* font size */
+.fs{
+   font-size: 1.5rem;
+   font-weight: bolder;
+}
+/* sets the cursor to pointer with a color*/
+.cp {
+   cursor: pointer;
+   /* color : rgba(34, 41, 5, 0.9); */
+   color: #c9b3b3;
+   background : darkslategray;
+}
+/* for the text align property */
+.ta{
+   text-align: center;
+}
+
+/*  setting the width property  */
+
+.w{ 
+   width: fit-content;
+}

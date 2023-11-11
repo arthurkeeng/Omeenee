@@ -1,0 +1,56 @@
+
+
+.mainForm{
+
+   width: 25%;
+   height : 0;
+   margin : 0;
+   position: fixed;
+   top : 14rem ;
+   right  : 35%;
+   height : 0;
+   opacity: 0;
+   transition: all 0.4s;
+}
+
+.sign-in, .sign-up{
+   width: 100%;
+   height: fit-content;
+   margin: 4rem auto;
+   font-size: 1rem;
+
+   padding : 1rem 5px;
+   text-align: center;
+   background: rgba(185, 233, 233 , 0.9);
+   border-radius: 1rem;
+
+}
+
+.form-div{
+   text-align: center;
+}
+
+.form-div label, .form-div p{
+   font-size: 1.6rem;
+}
+
+.form-div input{
+   padding : 8px;
+   width : 70%;
+   border-radius: 7px;
+   outline: none;
+   border: none;
+   border-bottom: 1px solid lightgrey;
+}
+.form-div label, .form-div input{
+   display: block;
+   margin: 1rem  auto;
+   
+}
+
+
+.shFm{
+   z-index: 1;
+   height : auto;
+   opacity: 1;
+}

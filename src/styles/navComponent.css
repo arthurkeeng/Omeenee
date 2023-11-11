@@ -1,0 +1,101 @@
+
+
+.nav{
+   background : rgb(141, 165, 141);
+   width: 95vw;
+   margin: 8px auto;
+   padding: 1rem 1rem 2rem 4rem;
+   box-shadow: 1px 1px 3px lightgrey;
+   position : sticky;
+   top : 1rem;
+   left : 0;
+   z-index: 1;
+}
+
+
+.nav form{
+   width : 20rem;
+}
+
+.navFm input{
+    width: 30rem;
+    padding: 12px 1rem;
+    border-radius: 6px;
+    outline: none;
+    font-size: 1.6rem;
+    border: none;
+    border-bottom: 1px solid rgb(4, 34, 4);
+    border-top: 1px solid limegreen;
+
+}
+
+
+.navH3 span:first-child{
+   font-size: 2.6rem;
+   font-weight: bold;
+   color : rgba(117, 88, 35 , 0.9)
+}
+
+.navH3 span:last-child{
+   font-size: 2.3rem;
+   font-weight: bold;
+   color : rgba(39, 35, 28, 0.9)
+}
+
+.navSpan{
+   margin : 0 10rem;
+   cursor: pointer;
+   
+}
+
+.navForm{
+   margin: 0 20rem 0 0;
+}
+.navLink{
+   width : 8rem;
+   padding-right: 17rem;
+  
+}
+
+.navLink a{
+   font-size: 1.8rem;
+   margin-right: 2rem;
+}
+
+.navLink h4{
+   width : 2rem;
+   height : 2rem;
+   background: grey;
+   position : absolute;
+   top : 0;
+   left : -2.5rem;
+   border-radius: 50%;
+}
+
+.numItems{
+   position : absolute;
+   top  : -.6rem ;
+   left : 46%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

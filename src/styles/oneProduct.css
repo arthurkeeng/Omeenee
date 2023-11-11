@@ -1,0 +1,112 @@
+
+
+/* this is for the products component */
+
+.oneProduct{
+   background: rgba(193, 178, 178 , 0.9);
+   width: 55%;
+   height: 0;
+   font-size: 1.5rem;
+   position: fixed;
+   top: 13rem;
+   font-size: 1.8rem;
+   left: 17%;
+   padding: 2rem;
+   z-index: -5;
+   display: flex;
+   text-align: center;
+   opacity: 0;
+}
+
+.oneProduct div{
+   margin-right: 3rem;   
+   width: 50%;
+
+}
+
+
+.oneProd2{
+   width : 64%;
+   /* font-size: 1.5rem; */
+}
+
+.lasBtn{
+   margin-top: 2rem;
+   padding: 12px 25px;
+   top: 0;
+   right: 0;
+   font-weight: bold;
+   width: fit-content;
+   padding: 6px;
+   border-radius: 6px;
+   border: none;
+}
+.oneProd2 p{
+      margin-bottom: 2rem;
+
+}
+.oneProd1 img{
+   width : 83%;
+   height : 40%;
+   border-radius: 5px;
+}
+
+.oneProd1 button{
+   padding: 6px 1rem;
+   outline: none;
+   margin-top: 1rem;
+   font-weight: bold;
+   border: none;
+   border-radius: 6px;
+}
+
+
+#sizes , #colors{
+   margin-right: 1rem;
+}
+
+/* these sets of styles is used for the products component */
+.prodComp{
+   /* display: flex; */
+   width: 90vw;
+   display: grid;
+   grid-template-columns: repeat(8 ,1fr);
+   gap : 1rem;
+   margin: 0 auto;
+}
+.product{
+   background : rgba(233, 210, 210 , 0.4);
+   width : 95vw;
+   height : fit-content;
+   padding : 2rem;
+
+   
+}
+
+.prodArt{
+   flex-basis: 8%;
+   height : 20rem;
+   padding : 1rem;
+   background  : rgba(50, 205, 50 ,0.1);
+   border-radius: 5px;
+}
+
+.prodArt:hover {
+   transform : scale(1.2);
+
+}
+.prodArt img{
+   width : 100%;
+   height : 15rem;
+   border-radius: 5px;
+
+}
+
+
+
+.shFm{
+   z-index: 1;
+   height : auto;
+   opacity: 1;
+}
+

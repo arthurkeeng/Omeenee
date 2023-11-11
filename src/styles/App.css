@@ -1,0 +1,255 @@
+
+@media screen and (max-width : 900px) {
+
+
+   /*  this is for the nav bar component */
+.navLink{
+      left : 9%;
+   }
+   .nav{
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .navSpan{
+      margin: 0 5rem;
+      font-size: 1.6rem;
+   }
+
+   .nav form{
+      width: 10rem;
+   }
+   
+
+   /* for the element with the id of acct
+   in the navbar */
+   #acct{
+      display: none;
+   }
+
+   .numItems{
+      
+      left : 3rem;
+   
+   }
+   .r , .l {
+      display: none;
+   }
+   /* end of the styling for the nav bar */
+
+   .catSection{
+      left : -175%;
+   }
+
+   .subCat{
+      width : 75vw;
+   }
+   #r{
+      top : -1rem ;
+      right : -78%;
+   }
+
+   #l{
+      top : -1rem;
+      left : -78%;
+   }
+
+   .oneProduct{
+      flex-direction: column;
+   }
+   
+#oneProd1{
+   width: 100%;
+}
+
+#oneProd2{
+   margin-top: 1rem;
+   width: 100%;
+   border-top: 1px solid lightgrey;
+   padding-top: 8px;
+}
+.oneProd2 p{
+   width: 90%;
+}
+#oneProd1 img{
+      width: 15rem;
+      height: 15rem;
+   }
+ #oneProd1 h4{
+      justify-content: space-evenly;
+   }
+   #sizes , #colors{
+      font-size: 2rem;
+   }
+ 
+   .prodComp{
+      /* display: flex; */
+      grid-template-columns: repeat(6 , 1fr);
+      gap : 1rem;
+      margin: 0 auto;
+   }
+   #prodComp{
+      grid-template-columns: repeat(4 ,1fr);
+   }
+   #wp {
+      top : 44%;
+      left : 30%
+   }
+
+}
+
+@media screen and ( min-width : 400px ) and ( max-width : 700px) {
+   
+   .nav{
+      flex-direction: column;
+      text-align: center;
+      width: 85%;
+      left:1.9rem;
+   }
+   .navH3 span:first-child, .navH3 span:last-child{
+      font-size: 4rem;
+   }
+
+   .subCat{
+      width: 68vw;
+   }
+   .nav form{
+      width: 100%;
+   }
+   .navForm{
+      width: 95%;
+      margin: 2rem auto;
+      margin-bottom: 3rem;
+   }
+
+   .navFm input{
+      width: 80%;
+   }
+   .navSpan{
+   position: absolute;
+    top: 80%;
+    left: 6%;
+   }
+   .navLink{
+   position: absolute;
+    top: 80%;
+    left: 70%;
+   }
+
+   .numItems{
+      left: 20%;
+   }
+
+   .disSection{
+      display: block;
+      margin-bottom: 12rem;
+   }
+  
+   .disSection div:first-child{
+      flex-direction: row;
+      height: 65%;
+      margin-bottom: 1rem;
+   }
+
+   .ads{
+      top: -21%;
+      height: 65%;
+   }
+   
+   .catSection{
+      left : 80%;
+      top : -42%;
+      letter-spacing: 5.8px;
+   }
+
+.oneProduct{
+   width: 65%;
+   left: 6%;
+   display: block;
+}
+
+.oneProdBtn{
+   position: absolute;
+    top: 18%;
+    left: 82%;
+    font-size: 1.5rem;
+}
+#oneProd1{
+   width: 80%;
+}
+
+#oneProd2{
+   margin-top: 1rem;
+   width: 100%;
+   border-top: 1px solid lightgrey;
+   padding-top: 8px;
+}
+.oneProd2 p{
+   width: 90%;
+}
+.homeSection{
+   width: 90%;
+}
+.hCategories{
+    width: 25rem;
+    top: 39%;
+    left: 28%;
+}
+
+#footer{
+   width: 87vw;
+   margin: 0 auto;
+}
+.footerMain{
+   flex-direction: column;
+}
+
+.footerMain div:first-child{
+   margin-bottom: 1rem;
+}
+
+.footerMain div:nth-child(2){
+   width: 100%;
+   margin-bottom: 1rem;
+}
+.footerMain div:last-child{
+   display: none;
+}
+
+.footerMain div:last-child h2:last-child span{
+   margin-right: 2rem;
+}
+.fTwo {
+   display: grid;
+   padding: 0rem;
+}
+
+.fTwo div:first-child , .fTwo div:nth-child(2){
+   border-right: 1px solid lightgrey;
+}
+#oneProduct{
+   left: 7%;
+   top: 6%;
+}
+
+#oneProdImg{
+   width: 72%;
+   height: 16rem;
+}
+
+#sizes , #colors{
+   font-size: 2rem;
+}
+
+#cartSection{
+   width: 85%;
+}
+
+#prodComp{
+   grid-template-columns: repeat(3 ,1fr);
+}
+#wp {
+   top : 44%;
+   left : 13%
+}
+}

@@ -1,0 +1,24 @@
+
+
+footer{
+  background : grey ;
+  width : 94vw;
+  height : fit-content;
+  margin: 5px auto 2rem auto;
+  padding : 4rem 3rem;
+
+}
+.fTwo{
+ 
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
+}
+
+.fTwo h1{
+  margin-bottom: 1rem;
+}
+.fTwo h2{
+  margin-bottom: 1rem;
+}
